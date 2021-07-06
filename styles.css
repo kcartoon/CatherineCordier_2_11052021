@@ -124,6 +124,12 @@ border: none;
 border-top: solid #F2F2F2 1px;
 border-bottom: solid #F2F2F2 1px;
 }
+::-moz-placeholder{/* Ajout Pour Firfox*/
+  opacity: 1;
+}
+input::placeholder {
+  color: black;
+}
 .search_text { /* MediaQuery mobile 768px */   
 background-color:#0065FC;
 color: white;
@@ -458,14 +464,15 @@ main {
 /*containers hebergements et populaires*/
 /* Bloc hebergements */ 
 .containers-hebergements {
-  margin:0;
   width: 100%;
+  box-sizing: border-box;
   border-bottom:#F2F2F2 solid 1px
 }
 .TitreBlocH {
   margin-left: 30px;
 }
 #hebergements {
+  margin-left: 22px;
   display: grid;
   gap: 20px;
   grid-template-columns: 3fr 3fr; 
@@ -478,11 +485,17 @@ main {
 }
 /*Bloc article Activités */
 #card-act {
-  margin-left: 0px;
+  
+  margin-left: 7px;
   display: grid;
   justify-items: center;
   gap: 6px;
   grid-template-columns: 3fr 3fr; 
+}
+.container-activites {
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 5px;
 }
 .titre-activite {
   margin-top: 25px;
