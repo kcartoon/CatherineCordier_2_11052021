@@ -1,0 +1,4 @@
+# ignore tous les fichiers extension .json
+*.json
+# ignore tous les fichiers memento
+*.txt
