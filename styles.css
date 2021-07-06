@@ -474,6 +474,7 @@ main {
 /*Bloc aside populaire*/
 #Bloc_populaire {
  width: 100%;
+ box-sizing: border-box;
 }
 /*Bloc article Activités */
 #card-act {
@@ -594,6 +595,7 @@ margin-right: 30px;
   height: auto;
   border-radius: 20px;
   width: 100%;
+  margin-right: 30px;
 }
 .titre-popu {
   margin-top: 10px;
